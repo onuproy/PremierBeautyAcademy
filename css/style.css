@@ -1,0 +1,268 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none !important;
+  text-decoration: none !important; 
+}
+
+input {
+  outline: none !important; 
+}
+
+button {
+  outline: none !important; 
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*========= Hero Section Css ===========*/
+.navigationbar {
+  background: black;
+  overflow: hidden;
+}
+.containbar {
+  width: 70%;
+  float: left;
+  background: black;
+}
+.logo_design {
+  width: 50%;
+  float: left;
+}
+.social_icon {
+  width: 50%;
+  float: left;
+}
+.logo_social_area {
+  overflow: hidden;
+}
+.social_icon ul li{
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 24px;
+    float: right;
+    width: 5%;
+}
+.social_icon ul li a{
+    color: #C8AA54;
+    font-size: 24px;
+}
+.logo_design img {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.social_icon ul li a:hover{
+    color: tomato;
+}
+.nav_font {
+  color: white;
+  padding-top: 75px;
+  padding-left: 72px;
+}
+.nav_font h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav_font p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.nav_font p small{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #FFFFFF;
+margin-bottom: 8px;
+overflow: hidden;
+}
+.nav_font p span{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+color: #FFFFFF;
+margin-top: 8px;
+overflow: hidden;
+}
+
+.image_design {
+  width: 30%;
+  float: right;
+}
+
+.image_design img {
+  width: 100%;
+}
+.meeting{
+  background: tomato;
+}
+.meeting p{
+  overflow: hidden;
+}
+
+/*About section Css */
+.about_area {
+  padding: 100px 0px;
+  background: #FFF;
+  overflow: hidden;
+}
+
+.about_content p{
+  color: #000;
+  font-size: 25px;
+}
+.container{
+  max-width: 854px;
+  width: 100%;
+  margin: auto;
+}
+.about_content_title h1{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #202020;
+padding-bottom: 32px;
+}
+.premier_image {
+  width: 50%;
+  float: left;
+}
+.premier_content {
+  width: 50%;
+  float: left;
+}
+.premier_master_area {
+  overflow: hidden;
+}
+.premier_content{}
+.premier_content p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+  padding-bottom: 12px;
+}
+.premier_content p img {
+  padding-right: 8px;
+}
+.premier_content a {
+  margin-top: 22px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  background: #C8AA54;
+  border-radius: 8px;
+  padding: 15px 24px;
+  display: inline-block;
+}
